@@ -4,6 +4,8 @@ import torch
 from transformers import AutoModelForCausalLM,AutoTokenizer
 
 model_id = "cyberagent/open-calm-small"
+#model_id = "cyberagent/open-calm-7b"
+
 
 model = AutoModelForCausalLM.from_pretrained(
     model_id
